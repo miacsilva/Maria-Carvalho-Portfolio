@@ -7,7 +7,7 @@ function App() {
     <>
       
       <p className="read-the-docs">
-       My Portfoliozinho
+       My Portfolio branch SOLVED
       </p>
     </>
   )
