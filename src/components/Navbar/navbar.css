@@ -49,6 +49,9 @@
 .maria{
     color: #50CB94;
 }
+.maria:hover{
+    color: #50CB94;
+}
 
 /* .navegation{
     gap: 5px;
