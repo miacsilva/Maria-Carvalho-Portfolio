@@ -1,4 +1,5 @@
 import "./App.css";
+import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
@@ -6,7 +7,7 @@ import Contact from "./components/Contact/Contact";
 function App() {
   return (
     <>
-      <p className="read-the-docs">My Portfolio branch SOLVED</p>
+      <Home/>
       <About />
       <Projects />
       <Contact />

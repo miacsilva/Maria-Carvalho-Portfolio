@@ -1,0 +1,31 @@
+#home{
+display: flex;
+flex-direction: row;
+height: 100svh;
+}
+
+
+.animation{
+width: 50vw;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.lottie{
+    width: 70%;
+}
+
+.home-info{
+width: 50vw;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.home-info p{
+    font-size: 50px;
+}
+.home-info p span{
+    color: #50CB94;
+}
