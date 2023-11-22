@@ -1,0 +1,59 @@
+#navbar{
+    height: 25px;
+    width: 96.5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    position:fixed;
+    z-index: 1;
+    border-radius: 0 0 40px 40px;
+    background-image: url("/src/assets/dotted_black_background.png");
+    background-size:cover;
+    background-position: 0;
+}
+
+
+.nav-Links{
+   
+    color: aliceblue;
+    margin-left: 50px;
+}
+
+
+
+
+
+.nav-Links2 {
+    color: #dad8d8;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .nav-Links2::before {
+    background: #50CB94;
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+  }
+  
+  .nav-Links2:hover::before {
+    color: aliceblue;
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+.maria{
+    color: #50CB94;
+}
+
+/* .navegation{
+    gap: 5px;
+} */
+
+section a{
+    
+}

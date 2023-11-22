@@ -16,16 +16,24 @@ justify-content: center;
     width: 70%;
 }
 
+
+
 .home-info{
 width: 50vw;
 display: flex;
+flex-direction: column;
 align-items: center;
 justify-content: center;
 }
 
-.home-info p{
+.home-info h2{
     font-size: 50px;
 }
-.home-info p span{
+.home-info h2 span{
     color: #50CB94;
+}
+
+.home-info p{
+    font-size: 30px;
+    width: 70%;
 }
