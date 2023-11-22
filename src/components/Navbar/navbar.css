@@ -10,6 +10,8 @@
     background-image: url("/src/assets/dotted_black_background.png");
     background-size:cover;
     background-position: 0;
+    background-color: #17171747;
+    backdrop-filter: blur(5px);
 }
 
 
