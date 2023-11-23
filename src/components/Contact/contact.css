@@ -1,5 +1,64 @@
+
 #contact{
     height: 100svh;
-    background-color:   #50CB94;
+    background-color:   var(--main-green);
     background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
 }
+
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--main-black);
+    padding: 14px;
+  }
+  
+  .title{
+    margin-bottom: 14px;
+  }
+  
+  .form{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input{
+    margin-bottom: 14px;
+    height: 34px;
+    border-radius: 4px;
+    border: 0;
+    padding: 0 8px;
+    background-color: var(--main-black);
+    color: var(--main-green);
+  }
+  
+  .textarea{
+    background-color: var(--main-black);
+    color: var(--main-green);
+    margin-bottom: 14px;
+    border-radius: 4px;
+    border: 0;
+    padding: 8px;
+    height: 94px;
+    resize: none;
+  }
+  
+  .button{
+    height: 34px;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background-color:var(--main-green);
+    font-size: 18px;
+    transition: background-color, transform 0.8s;
+  }
+  
+  .button:hover{
+    background-color:rgb(69, 145, 69);
+    transform: scale(1.03);
+  }
