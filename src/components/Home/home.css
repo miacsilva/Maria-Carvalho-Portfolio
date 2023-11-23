@@ -16,8 +16,6 @@ justify-content: center;
     width: 70%;
 }
 
-
-
 .home-info{
 width: 50vw;
 display: flex;
@@ -36,4 +34,36 @@ justify-content: center;
 .home-info p{
     font-size: 30px;
     width: 70%;
+}
+
+@media screen and (max-width: 1000px) {
+    #home{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content:center;
+        align-items: center;
+        }
+
+        .home-info{
+            width: 90vw;
+            }
+
+            .home-info h2{
+                font-size: 2.5rem;
+            }
+            .home-info p{
+                font-size: 0.8rem;
+                width: max-content;
+            }
+            
+}
+
+@media screen and (max-width: 500px) {
+    .animation{
+        width: 90vw;
+        }
+        
+        .lottie{
+            width: 75%;
+        }
 }

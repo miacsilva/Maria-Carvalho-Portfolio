@@ -1,5 +1,32 @@
 #about{
     height: 100svh;
-    background-color:   #50CB94;
+    background-color: #50CB94;
     background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    color: #171717;
 }
+
+#about h1{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.portrait{
+    
+width: 30vw;
+height: auto;
+}
+
+.about-text{
+    width: 30vw;
+    font-size: 1rem;
+}
+
+
