@@ -1,5 +1,5 @@
 import "./about.css"; 
-import maria from "/maria-portrait.png"
+import maria from "/src/assets/maria-portrait.png"
 
 function About() {
   return (
