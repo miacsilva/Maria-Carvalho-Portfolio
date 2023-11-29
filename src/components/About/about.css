@@ -1,5 +1,5 @@
  #about {
-  height: 100svh;
+  height: 100dvh;
   width: 100svw;
   background-color: #50cb94;
   background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
   font-family: "Space Mono", monospace;
-  gap: clamp(2rem,3vw + 1rem,10rem);
+  gap: clamp(2rem,0.5vw + 1rem,10rem);
   padding: 10px;
 }
 
@@ -30,7 +30,7 @@
 
 .about-text h3 {
   width: 40vw;
-  font-size: clamp(1rem, 0.5vw + 1rem, 2rem);
+  font-size: clamp(1.2rem, 1vw + 1rem, 2rem);
   backdrop-filter: blur(1.5px);
 }
 
@@ -44,10 +44,10 @@
 
 .img-container{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .portrait {
-  width: clamp(150px,35vw + 1rem, 500px);
+  width: clamp(200px,50vw + 1rem, 450px);
   height: auto;
 }
 
@@ -70,7 +70,6 @@
   }
   .about-text h3 {
     width: 80vw;
-    backdrop-filter: blur(1.5px);
   }
 }
 
