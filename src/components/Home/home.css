@@ -1,5 +1,6 @@
 #home{
 display: flex;
+min-height: 100vh; /* if browser does not support svh units */
 min-height: 100svh;
 }
 
@@ -24,15 +25,17 @@ justify-content: center;
 }
 
 .home-info h2{
-    font-size: clamp(2.5rem, 8vw, 6rem);
+    font-size: clamp(2.5rem, 7vw + 1rem, 6rem);
+    margin: 0;
 }
 .home-info h2 span{
     color: #50CB94;
 }
 
 .home-info p{
-    font-size: clamp(1.5rem, 3vw, 4rem);
+    font-size: clamp(1.5rem, 2vw + 1rem, 4rem);
     width: max-content;
+    margin: 0;
 }
 
 @media screen and (max-width: 1000px) {
@@ -44,15 +47,25 @@ justify-content: center;
 
         .home-info{
             width: 90vw;
+            height: 50svh;
+            
             }
 
             .animation{
                 width: 90vw;
+                height: 50svh;
+                align-items: flex-end;
                 }
                 
-                .lottie{
-                    width: min(70%, 50rem);
+
+           
+}
+@media screen and (max-width: 700px) {
+
+            .animation{
+                align-items: flex-start;
                 }
+                
 
            
 }
