@@ -18,6 +18,7 @@ function Navbar() {
 
     <div className="navegation">
     <a href="/#about" className="nav-Links nav-Links2">About Me</a>
+    <a href="/#skills" className="nav-Links nav-Links2">Skills</a>
     <a href="/#projects" className="nav-Links nav-Links2">Projects</a>
     <a href="/#contact" className="nav-Links nav-Links2 last-Link">Contact</a>
     </div>
@@ -38,6 +39,14 @@ function Navbar() {
       >
       <TiUser/>
 
+      </a>
+
+      <a
+        href="#skills"
+        onClick={() => setActiveNav("#skills")}
+        className={activeNav === "#skills" ? "active" : ""}
+      >
+        <MdWork />
       </a>
 
       <a

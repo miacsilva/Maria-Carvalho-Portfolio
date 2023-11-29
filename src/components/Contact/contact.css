@@ -1,7 +1,6 @@
 #contact {
   min-height: 100vh;
-  background-color: var(--main-green);
-  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  color: var(--main-green);
 }
 
 .container {
@@ -15,6 +14,7 @@
 
 .title {
   margin-bottom: 14px;
+  font-size: clamp(2rem,10vw + 1rem,5rem);
 }
 
 .form {
@@ -30,24 +30,33 @@
   border-radius: 4px;
   border: 0;
   padding: 0 8px;
-  background-color: var(--main-black);
-  color: var(--main-green);
-  font-size: 1.1rem;
+  background-color: var(--main-green);
+
+  color: var(--main-black);
+  font-size: 2rem;
   font-family: 'Space Mono', monospace;
 }
 
 .textarea {
-  background-color: var(--main-black);
-  color: var(--main-green);
+  background-color: var(--main-green);
+  color: var(--main-black);
   margin-bottom: 14px;
   border-radius: 4px;
   border: 0;
   padding: 8px;
   height: 94px;
   resize:none;
-  font-size: 1.1rem;
+  font-size: 2rem;
   font-family: 'Space Mono', monospace;
 }
+
+::placeholder
+ { 
+  color: var(--main-black);
+  opacity: 0.65;
+} 
+
+
 
 .button {
   height: 34px;
@@ -55,12 +64,32 @@
   border: 0;
   cursor: pointer;
   background-color: var(--main-green);
-  font-size: 18px;
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  font-size: 2rem;
   transition: background-color, transform 1s;
 
 }
 
 .button:hover {
-  background-color: rgb(69, 145, 69);
+  background-color: rgb(91, 176, 91);
   transform: scale(1.02);
 }
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5rem;
+  gap:1.5rem;
+}
+.icon1{
+  width: 50px;
+  height: 50px;
+  color: var(--main-green);
+}
+.icon2{
+  width: 50px;
+  height: 43px;
+  color: var(--main-green);
+}
+

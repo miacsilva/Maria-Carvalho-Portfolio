@@ -2,6 +2,9 @@ import { useState } from "react";
 import "./contact.css"; 
 import emailJs from "@emailjs/browser"
 import Swal from 'sweetalert2';
+import { FaGithubSquare } from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs";
+
 
 function Contact() {
 const [name, setName] = useState("");
@@ -71,6 +74,11 @@ function sendEmail(e){
 
         <input className="button" type="submit" value="Enviar" />
       </form>
+
+      <div className="icons">
+      <a href="https://github.com/miacsilva" target="_blank" rel="noreferrer">    <FaGithubSquare className="icon1"/> </a>
+      <a href="https://www.linkedin.com/in/maria-s-carvalho/" target="_blank" rel="noreferrer" > <BsLinkedin className="icon2"/> </a>
+      </div>
     </section>
   )
 }
