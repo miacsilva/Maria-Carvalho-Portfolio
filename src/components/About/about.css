@@ -17,6 +17,7 @@
   justify-content: center;
   font-family: "Space Mono", monospace;
   gap: clamp(2rem,3vw + 1rem,10rem);
+  padding: 10px;
 }
 
 
@@ -29,7 +30,7 @@
 
 .about-text h3 {
   width: 40vw;
-  font-size: clamp(1rem, 1.2vw + 1rem, 2rem);
+  font-size: clamp(1rem, 0.5vw + 1rem, 2rem);
   backdrop-filter: blur(1.5px);
 }
 
@@ -46,15 +47,19 @@
   justify-content: center;
 }
 .portrait {
-  width: clamp(200px,25vw, 500px);
+  width: clamp(150px,35vw + 1rem, 500px);
   height: auto;
-  margin-top:-30px;
 }
 
 @media screen and (max-width: 1000px) {
 
+  #about{
+    justify-content: center;
+   /*  padding-bottom: 70px; */
+  }
+
   #about h1 {
-    font-size: 1.5rem;
+    font-size: clamp(2.3rem, 3vw + 1rem, 4rem)
   }
   .about-content {
     display: flex;
@@ -62,11 +67,9 @@
     align-items: center;
     justify-content: center;
     font-family: "Space Mono", monospace;
-    padding: 2rem;
   }
   .about-text h3 {
     width: 80vw;
-    margin-right: 5rem;
     backdrop-filter: blur(1.5px);
   }
 }
