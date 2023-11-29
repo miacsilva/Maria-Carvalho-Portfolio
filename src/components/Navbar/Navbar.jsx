@@ -13,7 +13,7 @@ function Navbar() {
 
 <div id="navbar-desktop">
 <div >
-    <a href="/" className="nav-Links maria">{"<Maria.dev />"}</a>
+    <a href="/#" className="nav-Links maria">{"<Maria.dev />"}</a>
     </div>
 
     <div className="navegation">
