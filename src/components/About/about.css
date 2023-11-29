@@ -1,5 +1,5 @@
  #about {
-  height: 100dvh;
+  min-height: 100dvh;
   width: 100svw;
   background-color: #50cb94;
   background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
@@ -55,7 +55,7 @@
 
   #about{
     justify-content: center;
-   /*  padding-bottom: 70px; */
+    padding-bottom: 70px;
   }
 
   #about h1 {
