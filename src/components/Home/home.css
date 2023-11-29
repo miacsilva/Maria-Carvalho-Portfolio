@@ -29,7 +29,7 @@ justify-content: center;
     margin: 0;
 }
 .home-info h2 span{
-    color: #50CB94;
+    color: var(--main-green);
 }
 
 .home-info p{

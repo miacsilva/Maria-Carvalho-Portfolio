@@ -1,6 +1,8 @@
 nav{
   display: none;
 }
+
+
 #navbar-desktop{
     height: 25px;
     width:100%;
@@ -19,7 +21,6 @@ nav{
 }
 
 .nav-Links{
-   
     color: aliceblue;
     margin-left: 50px;
 }
@@ -57,11 +58,11 @@ nav{
     background-image: url("/src/assets/dotted_black_background.png");
     background-size:contain;
     background-position: 0;
-    background-color: rgba(0 , 0 , 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.136);
     backdrop-filter: blur(5px);
     width:min-content;
     display: block;
-    padding:0.7rem;
+    padding:1rem;
     z-index:100;
     left:50%;
     transform: translateX(-50%);
@@ -78,16 +79,16 @@ nav{
         padding:0.8rem;
         border-radius: 50%;
         display: flex;
-        font-size: 1rem;
+        font-size: 1.65rem;
     }
     
     nav a:hover {
-        background: rgba(0 , 0 , 0, 0.3);
+        background: rgba(0, 0, 0, 0.201);
     }
     
     nav a:active {
         background: rgba(0 , 0 , 0, 0.3);
-        color: rgba(255, 255, 255, 0.87);
+        color: var(--main-green);
     }
 
 }

@@ -8,7 +8,8 @@ import { AiOutlineMessage } from "react-icons/ai";
 function Navbar() {
   const [activeNav, setActiveNav] = useState("#")
   return (
-    <section >
+
+    <section>
 
 <div id="navbar-desktop">
 <div >
@@ -24,7 +25,7 @@ function Navbar() {
 
 <nav>
       <a
-        href="#"
+        href="/#"
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >
