@@ -1,15 +1,13 @@
  #about {
-  height: 100vh;
+  height: 100svh;
+  width: 100svw;
   background-color: #50cb94;
   background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
   color: #171717;
   display: flex;
   align-items: center;
-}
-
-#about h1 {
-  font-size: 2.3rem;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  justify-content: space-around;
+  
 }
 
 .about-content {
@@ -18,14 +16,20 @@
   align-items: center;
   justify-content: center;
   font-family: "Space Mono", monospace;
-  padding: 5rem;
+  gap: clamp(2rem,3vw + 1rem,10rem);
 }
+
+
+#about h1 {
+  font-size: 2.3rem;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+
 
 .about-text h3 {
   width: 40vw;
-  /*  font-size: clamp(8px, 110%,1.2rem); */
-  font-size: 1.2rem;
-  margin-right: 5rem;
+  font-size: clamp(1rem, 1.2vw + 1rem, 2rem);
   backdrop-filter: blur(1.5px);
 }
 
@@ -37,15 +41,17 @@
   text-decoration: underline wavy black;
 }
 
+.img-container{
+  display: flex;
+  justify-content: center;
+}
 .portrait {
-  width: 30vw;
+  width: clamp(200px,25vw, 500px);
   height: auto;
-  margin: 2rem;
+  margin-top:-30px;
 }
 
-@media screen and (max-width: 500px) {
-  #about {
-  }
+@media screen and (max-width: 1000px) {
 
   #about h1 {
     font-size: 1.5rem;
@@ -59,8 +65,7 @@
     padding: 2rem;
   }
   .about-text h3 {
-    /*  width: 90vw; */
-    font-size: 0.8rem;
+    width: 80vw;
     margin-right: 5rem;
     backdrop-filter: blur(1.5px);
   }

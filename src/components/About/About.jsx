@@ -19,7 +19,8 @@ function About() {
   
     </div>
 
-   {/*  <img src={maria} alt="Maria Carvalho's portrait" className="portrait"/> */}
+    <div className="img-container"></div>
+    <img src={maria} alt="Maria Carvalho's portrait" className="portrait"/>
     </div>
     </section>
   )
