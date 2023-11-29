@@ -1,73 +1,70 @@
-#about{
-    height: 100vh;
-    background-color: #50CB94;
-    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
-    color: #171717;
-    display: flex;
-    align-items: center;
+ #about {
+  height: 100vh;
+  background-color: #50cb94;
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  color: #171717;
+  display: flex;
+  align-items: center;
 }
 
-#about h1{
-    font-size: 2.3rem;
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+#about h1 {
+  font-size: 2.3rem;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
-.about-content{
+.about-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Space Mono", monospace;
+  padding: 5rem;
+}
+
+.about-text h3 {
+  width: 40vw;
+  /*  font-size: clamp(8px, 110%,1.2rem); */
+  font-size: 1.2rem;
+  margin-right: 5rem;
+  backdrop-filter: blur(1.5px);
+}
+
+.missing {
+  color: rgb(117, 13, 13);
+}
+
+.javascript {
+  text-decoration: underline wavy black;
+}
+
+.portrait {
+  width: 30vw;
+  height: auto;
+  margin: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  #about {
+  }
+
+  #about h1 {
+    font-size: 1.5rem;
+  }
+  .about-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    font-family: 'Space Mono', monospace;
-    padding: 5rem;
-    
-}
-
-
-
-
-.about-text h3{
-   /*  width: 50vw; */
-    font-size: 1.2rem;
+    font-family: "Space Mono", monospace;
+    padding: 2rem;
+  }
+  .about-text h3 {
+    /*  width: 90vw; */
+    font-size: 0.8rem;
     margin-right: 5rem;
     backdrop-filter: blur(1.5px);
+  }
 }
 
-.missing{
-   color: rgb(117, 13, 13);
-}
-
-.javascript{
-    text-decoration: underline wavy black;
-}
-
-
-.portrait{   
-    width: 30vw;
-    height: auto;
-    margin: 2rem;
-    }
-
-
-    @media screen and (max-width: 500px) {
-        #about{
-
-        }
-
-        #about h1{
-            font-size: 1.5rem;
-        }
-        .about-content{
-            display: flex;
-            flex-direction: column-reverse;
-            align-items: center;
-            justify-content: center;
-            font-family: 'Space Mono', monospace;
-            padding: 2rem;
-        }
-        .about-text h3{
-           /*  width: 90vw; */
-            font-size: 0.8rem;
-            margin-right: 5rem;
-            backdrop-filter: blur(1.5px);
-        }
-    }
+ 
+ 
