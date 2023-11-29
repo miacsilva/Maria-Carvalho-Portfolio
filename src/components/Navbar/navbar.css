@@ -56,7 +56,7 @@ nav{
 
   nav {
     background-image: url("/src/assets/dotted_black_background.png");
-    background-size:contain;
+    background-size:cover;
     background-position: 0;
     background-color: rgba(0, 0, 0, 0.136);
     backdrop-filter: blur(5px);
@@ -83,7 +83,7 @@ nav{
     }
     
     nav a:hover {
-        background: rgba(0, 0, 0, 0.201);
+        background:#2e8d6079;
     }
     
     nav a:active {
