@@ -2,6 +2,7 @@ import "./navbar.css";
 import { useState } from 'react'
 import {BiHomeAlt} from "react-icons/bi"
 import { TiUser } from "react-icons/ti";
+import { VscTools } from "react-icons/vsc";
 import {MdWork} from "react-icons/md"
 import { AiOutlineMessage } from "react-icons/ai";
 
@@ -46,7 +47,7 @@ function Navbar() {
         onClick={() => setActiveNav("#skills")}
         className={activeNav === "#skills" ? "active" : ""}
       >
-        <MdWork />
+        <VscTools />
       </a>
 
       <a

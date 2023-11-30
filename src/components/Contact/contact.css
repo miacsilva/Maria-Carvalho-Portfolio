@@ -31,14 +31,17 @@
   border: 0;
   padding: 0 8px;
   background-color: var(--main-green);
-
+  background: rgb(34,193,195);
+  background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(80,203,148,1) 85%);
   color: var(--main-black);
   font-size: 2rem;
   font-family: 'Space Mono', monospace;
 }
 
 .textarea {
-  background-color: var(--main-green);
+  background: rgb(34,193,195);
+  background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(80,203,148,1) 85%);
+
   color: var(--main-black);
   margin-bottom: 14px;
   border-radius: 4px;
@@ -66,30 +69,35 @@
   background-color: var(--main-green);
   background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
   font-size: 2rem;
-  transition: background-color, transform 1s;
+  transition: background-color, transform 0.5s;
 
 }
 
 .button:hover {
-  background-color: rgb(91, 176, 91);
-  transform: scale(1.02);
+  background-color: var(--main-green);
+  transform: scale(1.03);
 }
 
 .icons{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: right; */
   margin-top: 5rem;
   gap:1.5rem;
 }
-.icon1{
+.icon1, .icon2 {
   width: 50px;
   height: 50px;
   color: var(--main-green);
+  transition: 0.3s ease-in;
+}
+
+.icon1:hover , .icon2:hover {
+  transform: scale(1.05);
+  color: rgb(40,113,80);
+  color: rgb(34,193,195);
 }
 .icon2{
-  width: 50px;
   height: 43px;
-  color: var(--main-green);
 }
 

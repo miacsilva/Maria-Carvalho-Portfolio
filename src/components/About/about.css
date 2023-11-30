@@ -22,7 +22,7 @@
 
 
 #about h1 {
-  font-size: 2.3rem;
+  font-size: clamp(2.3rem, 3vw + 1rem, 4rem);
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
@@ -30,7 +30,7 @@
 
 .about-text h3 {
   width: 40vw;
-  font-size: clamp(1.2rem, 1vw + 1rem, 2rem);
+  font-size: clamp(1.2rem, 0.8vw + 1rem, 2rem);
   backdrop-filter: blur(1.5px);
 }
 
@@ -47,7 +47,7 @@
   justify-content: flex-start;
 }
 .portrait {
-  width: clamp(200px,50vw + 1rem, 450px);
+  width: clamp(200px,40vw + 1rem, 400px);
   height: auto;
 }
 

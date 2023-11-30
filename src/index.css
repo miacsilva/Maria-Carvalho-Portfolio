@@ -6,7 +6,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: rgb(36, 36, 36);
+  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,6 +16,7 @@
   --main-black:#171717;
   --ff-spaceMono: 'Space Mono', monospace;
   font-size: 10px;
+  --fs-titles: clamp(2rem,10vw + 1rem,5rem);
 }
 
 body {

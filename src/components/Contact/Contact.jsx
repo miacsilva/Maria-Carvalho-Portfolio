@@ -55,6 +55,7 @@ function sendEmail(e){
           placeholder="Name"
           onChange={(e) => setName(e.target.value)}
           value={name}
+          required
         />
         
         <input 
@@ -63,6 +64,7 @@ function sendEmail(e){
           placeholder="E-mail"
           onChange={(e) => setEmail(e.target.value)}
           value={email}
+          required
         />
 
         <textarea 
@@ -70,6 +72,7 @@ function sendEmail(e){
           placeholder="Your message"
           onChange={(e) => setMessage(e.target.value)}
           value={message}
+          required
         />
 
         <input className="button" type="submit" value="Enviar" />

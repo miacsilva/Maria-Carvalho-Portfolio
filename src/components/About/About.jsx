@@ -15,7 +15,7 @@ function About() {
         <span className="missing"> But something was missing.</span> I felt like I needed to be able to create and be creative in a field I've always loved and felt is so relevant: Tech. 
         My life changed when I engaged in a intensive <span className="javascript">Javascript</span> Full-Stack Web Development Bootcamp and gained the tools to create big and beautiful things!
       </h3>
-      <h3>Im into coding, music and nature 🧘</h3>
+      <h3>Im into coding, music and nature.</h3>
   
     </div>
 
