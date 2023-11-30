@@ -4,11 +4,11 @@ import maria from "/src/assets/maria-portrait.png"
 function About() {
   return (
     <section id="about"> 
-
+<div className="content-about">
+    <h1>.getToKnowMe</h1>
 <div className="about-content">
     <div className="about-text">
 
-    <h1>.getToKnowMe</h1>
       <h3>
         I'm Júnior Full-Stack Web Developer from Braga, Portugal. 
         My academic background is Sociology where I learned to integrate in my life very interesting lens apon the world.
@@ -21,6 +21,8 @@ function About() {
 
     <div className="img-container"></div>
     <img src={maria} alt="Maria Carvalho's portrait" className="portrait"/>
+    </div>
+
     </div>
     </section>
   )

@@ -1,5 +1,22 @@
-#projects{
-    min-height: 100dvh;
-        background-color: var(--main-green);
-        background-image: url("https://www.transparenttextures.com/patterns/cartographer.png")
+#projects {
+  min-height: 100dvh;
+  background-color: var(--main-green);
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  color: #171717;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
 }
+
+.projects-container{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#projects h1 {
+    font-size: clamp(2.3rem, 3vw + 1rem, 4rem);
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }

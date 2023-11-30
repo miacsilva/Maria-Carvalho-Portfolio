@@ -12,58 +12,46 @@ import { FaBootstrap } from "react-icons/fa";
 
 function Skills() {
   return (
-    <section id="skills"> 
+    <section id="skills">
+      <div className="content">
+        <h1>.mySkills</h1>
 
-    <div className="content">
-    <h1>
-        .mySkills
-    </h1>
+        <div className="skills-container">
+          <div className="skill-type">
+            <p className="title">Frontend</p>
 
-    <div className="skills-container">
+            <p className="skills-icons">
+              <FaHtml5 />
+              <FaCss3Alt />
+              <RiJavascriptFill />
+              <FaReact />
+              <FaBootstrap />
+              <TbApi />
+            </p>
+          </div>
 
-    <div className="skill-type">
-      <p className="title">Frontend</p>
+          <div className="skill-type">
+            <p className="title">Backend</p>
 
-      <p className="skills-icons">
-    <FaHtml5 />
-    <FaCss3Alt />
-    <RiJavascriptFill />
-    <FaReact />
-    <FaBootstrap />
-    <TbApi />
-</p>
-    </div>
+            <p className="skills-icons">
+              <RiJavascriptFill />
+              <SiNodedotjs />
+              <SiExpress />
+              <SiMongodb />
+            </p>
+          </div>
 
-    <div className="skill-type">
-      <p className="title">Backend</p>
+          <div className="skill-type">
+            <p className="title">Other</p>
 
-<p className="skills-icons">
-    <RiJavascriptFill />
-    <SiNodedotjs />
-    <SiExpress />
-    <SiMongodb />
-</p>
-    </div>
-
-    <div className="skill-type">
-      <p className="title">Other</p>
-
-      <p className="skills-icons"><SiAdobeillustrator /></p>
-  
-
-    </div>
-
-
-
-
-
-    </div>
-
-    </div>
-
-
+            <p className="skills-icons">
+              <SiAdobeillustrator />
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
-  )
+  );
 }
 
 export default Skills;
