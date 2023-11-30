@@ -9,7 +9,7 @@
   align-items: center;
   flex-direction: column;
   color: var(--main-black);
-  padding: 14px;
+  padding: 2rem;
 }
 
 .title {
@@ -39,7 +39,7 @@
   );
   color: var(--main-black);
   font-size: 2rem;
-  font-family: "Space Mono", monospace;
+  font-family: var(--ff-spaceMono);
 }
 
 .textarea {
@@ -49,7 +49,6 @@
     rgba(34, 193, 195, 1) 0%,
     rgba(80, 203, 148, 1) 85%
   );
-
   color: var(--main-black);
   margin-bottom: 1.5rem;
   border-radius: 4px;
@@ -58,7 +57,7 @@
   height: 94px;
   resize: none;
   font-size: 2rem;
-  font-family: "Space Mono", monospace;
+  font-family: var(--ff-spaceMono);
 }
 
 ::placeholder {
@@ -75,6 +74,9 @@
   background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
   font-size: 2rem;
   transition: background-color, transform 0.5s;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  font-family: var(--ff-spaceMono);
 }
 
 .button:hover {
@@ -82,11 +84,46 @@
   transform: scale(1.03);
 }
 
+.cv-btn{
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  background-color: rgb(34, 193, 195);
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(80, 203, 148, 1) 85%
+  );
+  font-size: 2rem;
+  transition: background-color, transform 0.5s ease-in-out;
+ /*  width: max-content; */
+  display: flex;
+  margin-top: 5rem;
+  height: 34px;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  font-family: var(--ff-spaceMono);
+  text-decoration: none;
+  color: var(--main-black);
+}
+
+.cv-btn:hover{
+  transform: scale(1.02);
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    90deg,
+    rgba(80, 203, 148, 1) 0%,
+    rgba(34, 193, 195, 1)85%
+  );
+}
+
 .icons {
   display: flex;
   flex-direction: column;
   /* justify-content: right; */
-  margin-top: 5rem;
+  margin-top: 1.5rem;
   gap: 1.5rem;
 }
 .icon1,
@@ -108,18 +145,12 @@
 }
 
 @media screen and (max-width: 500px) {
-  .input {
+  .input, .textarea, .cv-btn, .button{
     font-size: 1.5rem;
   }
 
-  .textarea {
-    font-size: 1.5rem;
-  }
 
-  .icons {
-    margin-top: 4rem;
-    gap: 1.5rem;
-  }
+
   .title {
     margin-bottom: 3rem;
   }
