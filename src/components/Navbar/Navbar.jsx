@@ -51,7 +51,7 @@ function Navbar() {
       </a>
 
       <a
-        href="#portfolio"
+        href="#projects"
         onClick={() => setActiveNav("#projects")}
         className={activeNav === "#projects" ? "active" : ""}
       >

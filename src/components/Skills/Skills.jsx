@@ -18,6 +18,8 @@ function Skills() {
 
         <div className="skills-container">
           <div className="skill-type">
+
+          
             <p className="title">Frontend</p>
 
             <p className="skills-icons">

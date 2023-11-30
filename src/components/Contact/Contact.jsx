@@ -4,6 +4,7 @@ import emailJs from "@emailjs/browser"
 import Swal from 'sweetalert2';
 import { FaGithubSquare } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
+import CVMariaCarvalho from "../../assets/MariaCarvalho_CV_PD.pdf"
 
 
 function Contact() {
@@ -78,7 +79,7 @@ function sendEmail(e){
         <input className="button" type="submit" value="Send" />
       </form>
 
-        <a className="cv-btn" href="/src/assets/MariaCarvalho_CV_PD.pdf" download >Download CV</a>
+        <a className="cv-btn" href={CVMariaCarvalho} download >Download CV</a>
       <div className="icons">
       <a href="https://github.com/miacsilva" target="_blank" rel="noreferrer">    <FaGithubSquare className="icon1"/> </a>
       <a href="https://www.linkedin.com/in/maria-s-carvalho/" target="_blank" rel="noreferrer" > <BsLinkedin className="icon2"/> </a>
