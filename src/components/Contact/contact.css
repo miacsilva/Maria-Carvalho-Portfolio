@@ -2,6 +2,7 @@
   min-height: 100vh;
   color: var(--main-green);
   background-color: #272727;
+  max-width: 100vw; /* !!! */
 }
 
 .container {
@@ -148,9 +149,10 @@
 @media screen and (max-width: 500px) {
   .input, .textarea, .cv-btn, .button{
     font-size: 1.5rem;
+    margin-left:1rem;
+    margin-right:1rem;
+
   }
-
-
 
   .title {
     margin-bottom: 3rem;
