@@ -23,7 +23,7 @@
     },
     {
       "id": 3,
-      "images": ["/src/assets/cryptoHacker1.gif", "/src/assets/cryptoHacker2.gif", "/src/assets/cryptoHacker3.gif"],
+      "images": ["../../../src/assets/cryptoHacker1.gif", "/src/assets/cryptoHacker2.gif", "/src/assets/cryptoHacker3.gif"],
       "title": "CryptoHacker Platform",
       "description": "A Full-Stack website, it's a platform listing the most valuable cryptocurrencies in themarket, while also allowing users to track prices by adding coins to their portfolio or watch-list. To accomplish this, a CoinGecko's API was fetched. *Desktop only",
       "github": "https://github.com/andrelisboapt/project-crypto",
