@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "images": ["/src/assets/marialuisapsicologa1.gif",
+      "images": ["../../src/assets/marialuisapsicologa1.gif",
       "/src/assets/marialuisapsicologa2.gif",
       "/src/assets/marialuisapsicologa3.gif",
       "/src/assets/marialuisapsicologa4.gif",
