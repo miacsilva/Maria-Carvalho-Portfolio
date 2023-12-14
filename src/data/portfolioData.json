@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "images": ["/src/assets/utquimicos1.png"],
+      "images": ["@/assets/utquimicos1.png"],
       "title": "U. T. Químicos's Official Website",
       "description": "My first freelance job where I had to design and develop the company's website from scratch. This is a front-end project using the ReactJS Framework. Here I tried to make a visually pleasant yet straightforward WebApp so the user would have a positive and functional experience surfing the site. I also created the logo of the company using adobe illustrator.",
       "github": "https://github.com/miacsilva/ut-quimicos-client",
