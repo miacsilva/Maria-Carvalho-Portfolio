@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "images": ["../../public/metromania1.gif", "/metromania2.gif", "/src/assets/metromania3.gif"],
+        "images": ["../../public/metromania1.gif", "/metromania1.gif", "/metromania2.gif", "/src/assets/metromania3.gif"],
         "title": "MetroMania - Game",
         "description": "A JavaScript based game, using Canvas, where our player has to dodge incoming passengers in order to catch the metro on time! Controllers: Arrow Up and Arrow Down. Pro-tip: Catch the Redbulls for a velocity pump. *Desktop only",
         "github": "https://github.com/Assebe/Project1",
