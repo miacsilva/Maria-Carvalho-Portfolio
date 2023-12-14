@@ -1,15 +1,21 @@
 [
     {
       "id": 1,
-      "image": "../../assets/aaaa.png",
-      "title": "U. T. Químicos, Lda Official Website",
+      "images": ["/src/assets/utquimicos1.png"],
+      "title": "U. T. Químicos's Official Website",
       "description": "My first freelance job where I had to design and develop the company's website from scratch. This is a front-end project using the ReactJS Framework. Here I tried to make a visually pleasant yet straightforward WebApp so the user would have a positive and functional experience surfing the site. I also created the logo of the company using adobe illustrator.",
       "github": "https://github.com/miacsilva/ut-quimicos-client",
       "live": "https://utquimicos.com/"
     },
     {
       "id": 2,
-      "image": "../../assets/aaaa.png",
+      "images": ["/src/assets/marialuisapsicologa1.gif",
+      "/src/assets/marialuisapsicologa2.gif",
+      "/src/assets/marialuisapsicologa3.gif",
+      "/src/assets/marialuisapsicologa4.gif",
+      "/src/assets/marialuisapsicologa5.gif",
+      "/src/assets/marialuisapsicologa6.gif"]
+    ,
       "title": "Maria Luísa Siva - Psicóloga",
       "description": "This website is on the surface only informative, but there is a hidden layer where the admin can do Log In and enter the platform being able to do CRUD operation pretty much on every component of the Website. The Admin is also able to manage the collaborators. The only thing the collaborators can't do that Admin can is add new or delete collaborators. Both Login is in the same Login landing page (/login). Me and my project partner were requested to do this project by a psychologist from Braga, Portugal, as a matter of fact, it is on use ever since the deployment.",
       "github": "https://github.com/miacsilva/mariaPsicologia-management-client",
@@ -17,17 +23,17 @@
     },
     {
       "id": 3,
-      "image": "../../assets/aaaa.png",
+      "images": ["/src/assets/cryptoHacker1.gif", "/src/assets/cryptoHacker2.gif", "/src/assets/cryptoHacker3.gif"],
       "title": "CryptoHacker Platform",
-      "description": "A Full-Stack website, it's a platform listing the most valuable cryptocurrencies in themarket, while also allowing users to track prices by adding coins to their portfolio or watch-list. To accomplish this, a CoinGecko's API was fetched.",
+      "description": "A Full-Stack website, it's a platform listing the most valuable cryptocurrencies in themarket, while also allowing users to track prices by adding coins to their portfolio or watch-list. To accomplish this, a CoinGecko's API was fetched. *Desktop only",
       "github": "https://github.com/andrelisboapt/project-crypto",
       "live": "https://cryptohacker.cyclic.app/"
     },
     {
         "id": 4,
-        "image": "../../assets/aaaa.png",
+        "images": ["@/assets/marialuisapsicologia1.png"],
         "title": "MetroMania - Game",
-        "description": "A JavaScript based game, using Canvas, where our player has to dodge incoming passengers in order to catch the metro on time! Controllers: Arrow Up and Arrow Down. Pro-tip: Catch the Redbulls for a velocity pump",
+        "description": "A JavaScript based game, using Canvas, where our player has to dodge incoming passengers in order to catch the metro on time! Controllers: Arrow Up and Arrow Down. Pro-tip: Catch the Redbulls for a velocity pump. *Desktop only",
         "github": "https://github.com/Assebe/Project1",
         "live": "https://assebe.github.io/Project1/"
       }

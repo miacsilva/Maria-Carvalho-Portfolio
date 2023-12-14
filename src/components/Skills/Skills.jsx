@@ -25,7 +25,7 @@ function Skills() {
 
             <p className="title">Frontend</p>
 
-            <p className="skills-icons">
+            <div className="skills-icons">
 
             <div id="double-set-icons">
               <span className="icon-description">HTML</span>
@@ -65,13 +65,13 @@ function Skills() {
              
               
          
-            </p>
+            </div>
           </div>
 
           <div className="skill-type">
             <p className="title">Backend</p>
 
-            <p className="skills-icons">
+            <div className="skills-icons">
 
             <div id="double-set-icons">
               <span className="icon-description">Javascript</span>
@@ -97,13 +97,13 @@ function Skills() {
           
               
          
-            </p>
+            </div>
           </div>
 
           <div className="skill-type">
             <p className="title">Other</p>
 
-            <p className="skills-icons">
+            <div className="skills-icons">
 
             <div id="double-set-icons">
               <span className="icon-description">Adobe Illustrator</span>
@@ -133,7 +133,7 @@ function Skills() {
               
             
             
-            </p>
+            </div>
           </div>
         </div>
       </div>
