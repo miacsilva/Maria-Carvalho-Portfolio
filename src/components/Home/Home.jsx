@@ -13,6 +13,7 @@ function Home() {
 
   return (
     <section id="home">
+    <div className="home-container">
       <div className="animation">
         <Lottie className={"lottie"} animationData={AnimationGirl} />
       </div>
@@ -25,6 +26,7 @@ function Home() {
           {text} <Cursor cursorColor="#50CB94" cursorStyle="|" />
         </p>
         <p> </p>
+      </div>
       </div>
     </section>
   );

@@ -17,15 +17,13 @@ function Projects() {
                   <div className="">
                   <Carousel>
                     {images.map((image, index) => (
-                      <Carousel.Item key={index}>
+                      <Carousel.Item key={index} interval={6000}>
                         <img
                           src={image}
                           className="d-block w-100 img-carousel"
                           alt={`Slide ${index + 1}`}
                         />
-                    {/*     <Carousel.Caption>
-                          <h3>{`Slide ${index + 1} label`}</h3>
-                        </Carousel.Caption> */}
+                    
                       </Carousel.Item>
                     ))}
                   </Carousel>

@@ -26,7 +26,7 @@
   flex-direction: column;
   align-items: center;
   /* justify-content: space-evenly; */
-  width: 70%;
+  width: 80%;
   align-self: center;
   margin-bottom: 8rem;
 }
@@ -52,8 +52,7 @@
 #double-set-icons{
   position: relative;
   cursor: pointer;
-/*   border-bottom:  2px dotted;
-  padding: 7px; */
+/*   padding: 7px; */
 }
 
 .icon{
