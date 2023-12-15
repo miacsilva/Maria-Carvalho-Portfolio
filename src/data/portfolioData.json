@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "images": ["@/assets/utquimicos1.png"],
+      "images": ["/utquimicos1.png"],
       "title": "U. T. Químicos's Official Website",
       "description": "My first freelance job where I had to design and develop the company's website from scratch. This is a front-end project using the ReactJS Framework. Here I tried to make a visually pleasant yet straightforward WebApp so the user would have a positive and functional experience surfing the site. I also created the logo of the company using adobe illustrator.",
       "github": "https://github.com/miacsilva/ut-quimicos-client",
@@ -9,12 +9,12 @@
     },
     {
       "id": 2,
-      "images": ["../../src/assets/marialuisapsicologa1.gif",
-      "/src/assets/marialuisapsicologa2.gif",
-      "/src/assets/marialuisapsicologa3.gif",
-      "/src/assets/marialuisapsicologa4.gif",
-      "/src/assets/marialuisapsicologa5.gif",
-      "/src/assets/marialuisapsicologa6.gif"]
+      "images": ["/marialuisapsicologa1.gif",
+      "/marialuisapsicologa2.gif",
+      "/marialuisapsicologa3.gif",
+      "/marialuisapsicologa4.gif",
+      "/marialuisapsicologa5.gif",
+      "/marialuisapsicologa6.gif"] 
     ,
       "title": "Maria Luísa Siva - Psicóloga",
       "description": "This website is on the surface only informative, but there is a hidden layer where the admin can do Log In and enter the platform being able to do CRUD operation pretty much on every component of the Website. The Admin is also able to manage the collaborators. The only thing the collaborators can't do that Admin can is add new or delete collaborators. Both Login is in the same Login landing page (/login). Me and my project partner were requested to do this project by a psychologist from Braga, Portugal, as a matter of fact, it is on use ever since the deployment.",
@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "images": ["../../public/metromania1.gif", "/metromania1.gif", "/metromania2.gif", "/src/assets/metromania3.gif"],
+        "images": ["/metromania1.gif", "/metromania2.gif", "/metromania3.gif", "/metromania4.gif"],
         "title": "MetroMania - Game",
         "description": "A JavaScript based game, using Canvas, where our player has to dodge incoming passengers in order to catch the metro on time! Controllers: Arrow Up and Arrow Down. Pro-tip: Catch the Redbulls for a velocity pump. *Desktop only",
         "github": "https://github.com/Assebe/Project1",
