@@ -1,8 +1,14 @@
 import "./projects.css";
+import { useEffect } from "react";
 import portfolioData from "/src/data/portfolioData.json";
 import Carousel from "react-bootstrap/Carousel";
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 function Projects() {
+  useEffect(()=>{
+    Aos.init()
+      },[])
   return (
     <section id="projects">
       <div className="projects-container">
@@ -13,7 +19,7 @@ function Projects() {
             ({ id, images, title, description, github, live }) => {
            
               return (
-                <article key={id} className="project-card">
+                <article key={id} className="project-card" data-aos="zoom-in" data-aos-duration="1000">
                   <div className="">
                   <Carousel>
                     {images.map((image, index) => (

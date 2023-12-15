@@ -41,7 +41,7 @@
 
 .about-text h3 {
   width: 40vw;
-  font-size: clamp(1.2rem, 0.8vw + 1rem, 2rem);
+  font-size: clamp(1.2rem, 0.8vw + 1rem, 1.5rem);
   backdrop-filter: blur(1.5px);
   line-height: 30px;
 }
@@ -59,7 +59,7 @@
   justify-content: flex-start;
 }
 .portrait {
-  width: clamp(200px,32vw + 1rem, 500px);
+  width: clamp(200px,32vw + 1rem, 400px);
   height: auto;
 }
 

@@ -3,6 +3,7 @@ import Lottie from "lottie-react";
 import AnimationGirl from "/src/assets/Animation-girl-seated.json";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
+
 function Home() {
   const [text] = useTypewriter({
     words: ["< Full-Stack Web Developer />"],

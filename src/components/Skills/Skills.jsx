@@ -1,4 +1,5 @@
 import "./skills.css";
+import { useEffect } from "react";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
@@ -12,18 +13,25 @@ import { FaBootstrap } from "react-icons/fa";
 import { ImGit } from "react-icons/im";
 import { SiNetlify } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 function Skills() {
+
+  useEffect(()=>{
+Aos.init()
+  },[])
+
   return (
     <section id="skills">
       <div className="content">
         <h1>.mySkills</h1>
 
         <div className="skills-container">
-          <div className="skill-type">
+          <div className="skill-type"  data-aos="fade-down-right" data-aos-duration="2000">
 
 
-            <p className="title">Frontend</p>
+            <p className="title" >Frontend</p>
 
             <div className="skills-icons">
 
@@ -68,8 +76,8 @@ function Skills() {
             </div>
           </div>
 
-          <div className="skill-type">
-            <p className="title">Backend</p>
+          <div className="skill-type" data-aos="fade-down-left" data-aos-duration="2000">
+            <p className="title"> Backend</p>
 
             <div className="skills-icons">
 
@@ -100,7 +108,7 @@ function Skills() {
             </div>
           </div>
 
-          <div className="skill-type">
+          <div className="skill-type" data-aos="fade-down-right" data-aos-duration="2000">
             <p className="title">Other</p>
 
             <div className="skills-icons">

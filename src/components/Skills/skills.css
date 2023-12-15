@@ -32,7 +32,7 @@
 }
 
 .skill-type .title {
-  font-size: clamp(2.5rem, 2vw + 1rem, 4rem);
+  font-size: clamp(2.5rem, 2vw + 1rem, 3rem);
   font-family: var(--ff-spaceMono);
   display: flex;
   justify-content: center;
@@ -56,7 +56,7 @@
 }
 
 .icon{
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 .icon-description{

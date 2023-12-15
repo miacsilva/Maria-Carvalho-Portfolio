@@ -1,7 +1,15 @@
 import "./about.css"; 
 import maria from "/src/assets/maria-portrait.png"
+import { useEffect } from "react";
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 
 function About() {
+  useEffect(()=>{
+    Aos.init()
+      },[])
+
   return (
     <section id="about"> 
 <div className="content-about">
@@ -20,7 +28,7 @@ function About() {
     </div>
 
     <div className="img-container"></div>
-    <img src={maria} alt="Maria Carvalho's portrait" className="portrait"/>
+    <img src={maria} alt="Maria Carvalho's portrait" className="portrait"  data-aos="fade-left" data-aos-duration="1000"/>
     </div>
 
     </div>
