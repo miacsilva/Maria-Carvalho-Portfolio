@@ -16,7 +16,8 @@
 
 .title {
   margin-bottom: 5rem;
-  font-size: clamp(2rem, 10vw + 1rem, 5rem);
+  font-size: clamp(3rem, 3vw + 1rem, 4rem);
+  font-family: var(--ff-spaceMono);
 }
 
 .form {

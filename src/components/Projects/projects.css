@@ -15,15 +15,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 6rem;
    /*  border:2px solid yellow;  */
     
 }
 
 .portfolio-container{
-  padding: 5rem;
+  padding: 5rem 0;
   margin: 0 auto;
   width: 100%;
-  /* border:2px solid; */
+/*   border:2px solid; */
   display:flex;
   flex-wrap: wrap;
   gap:5rem;
@@ -32,7 +33,7 @@
 
 .project-card{
 width:100%;
-max-width: 450px;
+max-width: 550px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -78,7 +79,7 @@ background:  #272727;
 
 #projects h1 {
     font-size: clamp(2.3rem, 3vw + 1rem, 4rem);
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: var( --ff-spaceMono);
   }
 
   @media screen and (max-width:700px){
@@ -89,7 +90,6 @@ background:  #272727;
 
     #projects h1 {
       font-size: clamp(2.3rem, 3vw + 1rem, 4rem);
-      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     }
   }
   @media screen and (max-width:600px){

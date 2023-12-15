@@ -15,14 +15,17 @@
   width: 80vw;
   flex-direction: column;
   justify-content: center;
+  margin: 6rem 0;
 }
 
 .about-content {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-family: "Space Mono", monospace;
+  justify-content:space-around;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  word-spacing: 2px;
+
   gap: clamp(2rem,0.5vw + 1rem,10rem);
   padding: 10px;
 }
@@ -30,7 +33,8 @@
 
 #about h1 {
   font-size: clamp(2.3rem, 3vw + 1rem, 4rem);
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: var( --ff-spaceMono);
+  margin-bottom: 5rem;
 }
 
 
@@ -39,6 +43,7 @@
   width: 40vw;
   font-size: clamp(1.2rem, 0.8vw + 1rem, 2rem);
   backdrop-filter: blur(1.5px);
+  line-height: 30px;
 }
 
 .missing {
@@ -54,7 +59,7 @@
   justify-content: flex-start;
 }
 .portrait {
-  width: clamp(200px,40vw + 1rem, 400px);
+  width: clamp(200px,32vw + 1rem, 500px);
   height: auto;
 }
 
@@ -66,17 +71,18 @@
   }
 
   #about h1 {
-    font-size: clamp(2.3rem, 3vw + 1rem, 4rem)
+    font-size: clamp(2.3rem, 3vw + 1rem, 4rem);
+    margin-bottom: 0;
   }
   .about-content {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    font-family: "Space Mono", monospace;
-  }
+    }
   .about-text h3 {
     width: 80vw;
+    line-height: 2.3rem;
   }
 }
 
