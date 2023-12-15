@@ -51,13 +51,15 @@ useEffect(()=>{
     },[])
 
   return (
-    <section id="contact" className="container"> 
+    <section id="contact" > 
+
+    <div className="contact-container" data-aos="fade-up" data-aos-duration="3000">
     
     
-      <h1 className="title"> .letsTalk</h1>
+      <h1 className="title">.letsTalk</h1>
       
 
-      <form className="form" onSubmit={sendEmail} data-aos="fade-up" data-aos-duration="2000">
+      <form className="form" onSubmit={sendEmail} >
         <input 
           className="input"
           type="text"
@@ -92,6 +94,7 @@ useEffect(()=>{
       <div className="icons">
       <a href="https://github.com/miacsilva" target="_blank" rel="noreferrer" >    <FaGithubSquare className="icon1"/> </a>
       <a href="https://www.linkedin.com/in/maria-s-carvalho/" target="_blank" rel="noreferrer"   > <BsLinkedin className="icon2"/> </a>
+      </div>
       </div>
     </section>
   )
