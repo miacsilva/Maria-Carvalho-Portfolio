@@ -53,7 +53,7 @@ useEffect(()=>{
   return (
     <section id="contact" > 
 
-    <div className="contact-container" data-aos="fade-up" data-aos-duration="3000">
+    <div className="contact-container" data-aos="fade-up" data-aos-duration="1500">
     
     
       <h1 className="title">.letsTalk</h1>

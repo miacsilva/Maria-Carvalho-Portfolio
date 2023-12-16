@@ -24,7 +24,7 @@ function Projects() {
                   data-aos="zoom-in"
                   data-aos-duration="1000"
                 >
-                  <div>
+                  <div className="card-container">
                     <Carousel>
                       {images.map((image, index) => (
                         <Carousel.Item key={index} interval={6000}>
