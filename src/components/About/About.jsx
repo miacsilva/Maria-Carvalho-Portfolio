@@ -1,5 +1,5 @@
 import "./about.css"; 
-import maria from "/src/assets/maria-portrait-min.png"
+import maria from "/maria-portrait-min.png"
 import { useEffect } from "react";
 import Aos from "aos"
 import "aos/dist/aos.css"
