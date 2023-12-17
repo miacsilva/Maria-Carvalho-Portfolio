@@ -5,7 +5,7 @@ import emailJs from "@emailjs/browser"
 import Swal from 'sweetalert2';
 import { FaGithubSquare } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
-import CVMariaCarvalho from "../../assets/MariaCarvalho_CV_PD.pdf"
+import CVMariaCarvalho from "../../assets/MariaCarvalho_CV.pdf"
 import Aos from "aos"
 import "aos/dist/aos.css"
 
