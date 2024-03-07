@@ -18,9 +18,8 @@
 
 #skills h1 {
   font-size: clamp(2.3rem, 3vw + 1rem, 4rem);
-  font-family: var( --ff-spaceMono);
+  font-family: var(--ff-spaceMono);
 }
-
 
 .skills-container {
   display: flex;
@@ -42,41 +41,47 @@
 }
 
 .skills-icons {
-    display: flex;
-    justify-content: center;
-    font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
   gap: 2rem;
   flex-wrap: wrap;
-  margin-bottom: -10px;   
+  margin-bottom: -10px;
 }
 
-#double-set-icons{
+#double-set-icons {
   position: relative;
   cursor: pointer;
-/*   padding: 7px; */
+  /*   padding: 7px; */
 }
 
-.icon{
+.icon {
   font-size: 4rem;
 }
+.icon:hover {
+  filter: brightness(0.5);
+  filter: blur(1.2px);
+  color: rgb(62, 144, 88);
+}
 
-.icon-description{
+.icon-description {
   position: absolute;
   left: 50%;
-  top:0;
+  top: 0;
   transform: translateX(-50%);
-  color: #fff;
+  color: #ffffffa1;
   white-space: nowrap;
   padding: 1rem 1rem;
   border-radius: 7px;
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.8s ease;
-  font-size: 2rem;
+  margin-top: 5px;
+  font-size: 1.5rem;
 }
 
-#double-set-icons:hover .icon-description{
- top: 80%;
- visibility: visible;
- opacity: 1;
+#double-set-icons:hover .icon-description {
+  top: 80%;
+  visibility: visible;
+  opacity: 1;
 }
