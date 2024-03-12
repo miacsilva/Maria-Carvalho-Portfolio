@@ -36,9 +36,8 @@ function Projects() {
                         </Carousel.Item>
                       ))}
                     </Carousel>
-
-                  <h3 className="card-title">{title}</h3>
-                  <p className="card-description">{description}</p>
+                    <h3 className="card-title">{title}</h3>
+                    <p className="card-description">{description}</p>
                   </div>
 
                   <div className="card-buttons">

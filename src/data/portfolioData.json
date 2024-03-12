@@ -1,6 +1,14 @@
 [
+  {
+    "id": 1,
+    "images": ["/fungiWorld1.gif", "/fungiWorld2.gif","/fungiWorld3.gif","/fungiWorld4.gif"],
+    "title": "Fungi World",
+    "description": "Personal frontend project where I dive into animation libraries. My goal was to start treading my path with new technologies such as: Next.Js, Gsap and Locomotive Scroll. I picked the fungi theme because well... who does not like mushrooms?",
+    "github": "https://github.com/miacsilva/smoothFungiWorld",
+    "live": "https://smoothfungiworld.netlify.app/"
+  },
     {
-      "id": 1,
+      "id": 2,
       "images": ["/utquimicos1.gif", "/utquimicos2.gif","/utquimicos3.gif","/utquimicos4.gif"],
       "title": "U. T. Químicos Website",
       "description": "My first freelance job where I had to design and develop the company's website from scratch. This is a front-end project using the ReactJS Framework. Here I tried to make a visually pleasant yet straightforward WebApp so the user would have a positive and functional experience surfing the site. I also created the logo of the Company using Adobe Illustrator.",
@@ -8,7 +16,7 @@
       "live": "https://utquimicos.com/"
     },
     {
-      "id": 2,
+      "id": 3,
       "images": ["/marialuisapsicologa1.gif",
       "/marialuisapsicologa2.gif",
       "/marialuisapsicologa3.gif",
@@ -22,7 +30,7 @@
       "live": "https://marialuisasilvapsicologia.com/"
     },
     {
-      "id": 3,
+      "id": 4,
       "images": ["/cryptoHacker1.gif", "/cryptoHacker2.gif", "/cryptoHacker3.gif"],
       "title": "CryptoHacker Platform",
       "description": "A Full-Stack website, it's a platform listing the most valuable cryptocurrencies in themarket, while also allowing users to track prices by adding coins to their portfolio or watch-list. To accomplish this, a CoinGecko's API was fetched. *Desktop only",
@@ -30,7 +38,7 @@
       "live": "https://cryptohacker.cyclic.app/"
     },
     {
-        "id": 4,
+        "id": 5,
         "images": ["/metromania1.gif", "/metromania2.gif", "/metromania3.gif", "/metromania4.gif"],
         "title": "MetroMania - Game",
         "description": "A JavaScript based game, using Canvas, where our player has to dodge incoming passengers in order to catch the metro on time! Controllers: Arrow Up and Arrow Down. Pro-tip: Catch the Redbulls for a velocity pump. *Desktop only",

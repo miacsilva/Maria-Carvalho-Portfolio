@@ -5,17 +5,14 @@ import emailJs from "@emailjs/browser"
 import Swal from 'sweetalert2';
 import { FaGithubSquare } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
-import CVMariaCarvalho from "../../assets/MariaCarvalho_CV.pdf"
+import CVMariaCarvalho from "../../assets/MariaCarvalho_CV_EN.pdf"
 import Aos from "aos"
 import "aos/dist/aos.css"
-
 
 function Contact() {
 const [name, setName] = useState("");
 const [email, setEmail] = useState("");
 const [message, setMessage] = useState("");
-
-
 
 function sendEmail(e){
   e.preventDefault();
@@ -54,11 +51,7 @@ useEffect(()=>{
     <section id="contact" > 
 
     <div className="contact-container" data-aos="fade-up" data-aos-duration="1500">
-    
-    
       <h1 className="title">.letsTalk</h1>
-      
-
       <form className="form" onSubmit={sendEmail} >
         <input 
           className="input"
@@ -68,7 +61,6 @@ useEffect(()=>{
           value={name}
           required
         />
-        
         <input 
           className="input"
           type="text"
@@ -77,7 +69,6 @@ useEffect(()=>{
           value={email}
           required
         />
-
         <textarea 
           className="textarea"
           placeholder="Your message"
@@ -85,17 +76,15 @@ useEffect(()=>{
           value={message}
           required
         />
-
         <input className="button" type="submit" value="Send" />
       </form>
-      
-        <a className="cv-btn email" href="mailto:maria.carolina.carvalho@hotmail.com"  >Send me an email</a>
-        <a className="cv-btn" href={CVMariaCarvalho} download >Download CV</a>
+      <a className="cv-btn email" href="mailto:maria.carolina.carvalho@hotmail.com"  >Send me an email</a>
+      <a className="cv-btn" href={CVMariaCarvalho} download >Download CV</a>
       <div className="icons">
-      <a href="https://github.com/miacsilva" target="_blank" rel="noreferrer" >    <FaGithubSquare className="icon1"/> </a>
-      <a href="https://www.linkedin.com/in/maria-s-carvalho/" target="_blank" rel="noreferrer"   > <BsLinkedin className="icon2"/> </a>
+        <a href="https://github.com/miacsilva" target="_blank" rel="noreferrer" >    <FaGithubSquare className="icon1"/> </a>
+        <a href="https://www.linkedin.com/in/maria-s-carvalho/" target="_blank" rel="noreferrer"   > <BsLinkedin className="icon2"/> </a>
       </div>
-      </div>
+    </div>
     </section>
   )
 }

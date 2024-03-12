@@ -14,20 +14,19 @@ function Home() {
 
   return (
     <section id="home">
-    <div className="home-container">
-      <div className="animation">
-        <Lottie className={"lottie"} animationData={AnimationGirl} />
-      </div>
-      <div className="home-info">
-        <h2>
-          Hi, I'm <span>Maria</span>!
-        </h2>
-
-        <p>
-          {text} <Cursor cursorColor="#50CB94" cursorStyle="|" />
-        </p>
-        <p> </p>
-      </div>
+      <div className="home-container">
+        <div className="animation">
+          <Lottie className={"lottie"} animationData={AnimationGirl} />
+        </div>
+        <div className="home-info">
+          <h2>
+            Hi, I'm <span>Maria</span>!
+          </h2>
+          <p>
+            {text} <Cursor cursorColor="#50CB94" cursorStyle="|" />
+          </p>
+          <p> </p>
+        </div>
       </div>
     </section>
   );

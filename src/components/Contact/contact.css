@@ -3,11 +3,6 @@
   color: var(--main-green);
   background-color: #272727;
   width: 100vw; /* !!! */
-  /*     
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
-  /*  color: var(--main-black); */
   padding: 2rem 2rem 8em 2rem;
 }
 
